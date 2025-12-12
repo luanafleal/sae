@@ -1,0 +1,39 @@
+{
+  "usuarios": [
+    { "login": "prof", "senha": "123", "tipo": "professor", "nome": "Prof. Carlos" },
+    { "login": "aluno", "senha": "123", "tipo": "aluno", "nome": "Maria Silva" },
+    { "login": "secretaria", "senha": "123", "tipo": "secretaria", "nome": "Secretária Ana" },
+    { "login": "diretor", "senha": "123", "tipo": "diretor", "nome": "Diretor José" }
+  ],
+  "alunos": [
+    { "id": "a1", "nome": "Maria Silva", "matricula": "2025-001" },
+    { "id": "a2", "nome": "João Pereira", "matricula": "2025-002" }
+  ],
+  "professores": [
+    { "id": "p1", "nome": "Prof. Carlos" }
+  ],
+  "disciplinas": [
+    { "id": "d1", "nome": "Matemática" },
+    { "id": "d2", "nome": "História" }
+  ],
+  "turmas": [
+    { "id": "t1", "nome": "1A", "disciplinaId": "d1", "professorId": "p1" }
+  ],
+  "notas": [
+    { "id": "n1", "alunoId": "a1", "disciplinaId": "d1", "nota": 8.5 },
+    { "id": "n2", "alunoId": "a1", "disciplinaId": "d2", "nota": 9.0 }
+  ],
+  "frequencia": [
+    { "id": "f1", "alunoId": "a1", "data": "2025-03-01", "presente": true },
+    { "id": "f2", "alunoId": "a1", "data": "2025-03-02", "presente": false }
+  ],
+  "tarefas": [
+    { "id": "tarea1", "titulo": "Exercícios de Português", "descricao": "Ler capítulo 2", "entreguePor": [] }
+  ],
+  "avisos": [
+    { "id": "av1", "titulo": "Reunião de Pais", "texto": "Reunião na próxima sexta às 18h." }
+  ],
+  "aulas": [
+    { "id": "au1", "turmaId": "t1", "data": "2025-03-01", "descricao": "Aula introdutória" }
+  ]
+}

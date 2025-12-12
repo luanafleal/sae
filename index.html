@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <title>Sistema Escolar — Login</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="center-screen card auth-card">
+    <h1 class="brand">Escola — Protótipo</h1>
+    <p class="muted">Faça login com uma conta de teste</p>
+
+    <div class="form-group">
+      <label for="login">Usuário</label>
+      <input id="login" type="text" placeholder="ex: prof, aluno" />
+    </div>
+
+    <div class="form-group">
+      <label for="senha">Senha</label>
+      <input id="senha" type="password" placeholder="123" />
+    </div>
+
+    <div class="actions">
+      <button class="btn primary" id="btnLogin">Entrar</button>
+    </div>
+
+    <p id="msg" class="error"></p>
+
+    <hr />
+    <div class="credenciais">
+      <strong>Contas de teste</strong>
+      <ul>
+        <li>prof / 123 (Professor)</li>
+        <li>aluno / 123 (Aluno)</li>
+        <li>secretaria / 123 (Secretária)</li>
+        <li>diretor / 123 (Diretor)</li>
+      </ul>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
